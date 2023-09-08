@@ -1,4 +1,4 @@
-# AUTOMATIZAÇÃO: BAIXE ARQUIVOS EXCEL VIA OUTLOOK 
+# BAIXE ARQUIVOS EXCEL (XLXS) RECEBIDOS PELO OUTLOOK DE FORMA AUTOMÁTICA
  - A ideia desse projeto surgiu como uma forma de automatizar downloades de arquivos xlxs para reduzir o tempo de produção.
 
 # Como utilizar
