@@ -6,9 +6,9 @@ outlook = client.Dispatch("Outlook.Application").GetNameSpace("MAPI")
 remetente = str(input('Digite o e-mail do remetente: '))
 
 inbox = outlook.GetDefaultFolder(6)
-getEmailsInInbox = inbox.Items
+emails = inbox.Items
 
-for email in getEmailsInInbox:
+for email in emails:
     assunto = email.subject
     dataFormtada = email.SentOn.strftime("%d-%m-%y")
 
